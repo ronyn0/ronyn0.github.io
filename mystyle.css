@@ -1,0 +1,134 @@
+.body   {
+    background-color: #FFF
+}
+.posterboard    {
+    width:667px; 
+    background-color:#9fc7be; 
+    margin:auto;
+    position:relative;
+}
+.layer_1    {
+    background-image: url('layer_1.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 0;
+}
+.layer_2    {
+    background-image: url('layer_2.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 1;
+}
+.layer_3    {
+    background-image: url('layer_3.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 2;
+    opacity:0;
+}
+.layer_4    {
+    background-image: url('layer_4.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 3;
+    opacity:0;
+}
+.layer_5    {
+    background-image: url('layer_5.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 10;
+    opacity:0;
+}
+.layer_6    {
+    background-image: url('layer_6.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 5;
+    opacity:0;
+}
+.layer_7    {
+    background-image: url('layer_7.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 6;
+    opacity:0;
+}
+.layer_8    {
+    background-image: url('layer_8.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 4;
+    opacity:0;
+}
+.layer_9    {
+    background-image: url('layer_9.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 3;
+    opacity:0;
+}
+.layer_10    {
+    background-image: url('layer_10.png');
+    width:667px;
+    height:1000px;
+    position:absolute;
+    z-index: 2;
+    opacity:0;
+}
+.animate-bottom {
+    animation:animatebottom 1s
+}
+@keyframes animatebottom {
+    from{bottom:-75px;opacity:0} to{bottom:0;opacity:1}
+}
+.animate-bottom2 {
+    animation:animatebottom 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom3 {
+    animation:animatebottom 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom4 {
+    animation:animatebottom 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom5 {
+    animation:animatebottom 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom6 {
+    animation:animatebottom 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom7 {
+    animation:animatebottom 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom8 {
+    animation:animatebottom 1s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+.animate-bottom9 {
+    position:relative;
+    animation:animatebottom 2s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
